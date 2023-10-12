@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #city-search-form {
+    margin: 20px;
+  }
+  
+  #city-input {
+    padding: 5px;
+    width: 200px;
+  }
+  
+  #current-conditions, #forecast {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #forecast {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .city-button {
+    cursor: pointer;
+    text-decoration: underline;
+    margin-right: 10px;
+  }
