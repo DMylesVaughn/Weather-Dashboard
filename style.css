@@ -1,29 +1,29 @@
+
+*
+{
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-  }
   
-  #city-search-form {
-    margin: 20px;
-  }
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   
-  #city-input {
-    padding: 5px;
-    width: 200px;
-  }
+}
+h3{
+  font-weight: bold;
+}
+.forecast{
   
-  #current-conditions, #forecast {
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
-  
-  #forecast {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .city-button {
-    cursor: pointer;
-    text-decoration: underline;
-    margin-right: 10px;
-  }
+  font-size: 0.9em;
+}
+span{
+  font-size: 1em;
+}
+li:hover{
+  background-color: rgb(45, 104, 230);
+  color: white; 
+  text-decoration: underline;
+  border: black solid;
+  font-size: 20px;
+}
